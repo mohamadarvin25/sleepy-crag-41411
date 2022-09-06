@@ -1,2 +1,1 @@
-release: python manage.py migrate
-web: gunicorn first_deploy.wsgi --log-file -
+web: gunicorn sleepy-crag-41411.wsgi --log-file -
